@@ -12,7 +12,7 @@ body {
 h1 {
   font-family: var(--heading-font);
   font-weight: bold;
-  font-size: 96px;
+  font-size: 64px;
 }
 
 h2 {
@@ -42,4 +42,51 @@ h3 {
   line-height: 27px;
   padding: 15px 30px;
   text-decoration: none;
+}
+
+.primary-button:hover {
+  color: white;
+}
+
+.intersection {
+  text-align: center;
+  padding: 30px;
+  color: #272142;
+}
+
+.apps-headline {
+  font-family: var(--heading-font);
+  font-size: 44px;
+}
+
+.apps-paragraph {
+  font-size: 16px;
+  opacity: 0.7;
+  line-height: 30px;
+}
+
+.apps-button {
+  text-align: center;
+  border: 1px solid var(--brand-primary);
+  color: var(--brand-primary);
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+  text-decoration: none;
+}
+
+.apps-button:hover {
+  color: var(--brand-primary);
+}
+
+@media (max-width: 768px) {
+  .apps-headline,
+  .apps-paragraph {
+    text-align: center;
+  }
+
+  .intro {
+    padding: 80px 15px;
+  }
 }
