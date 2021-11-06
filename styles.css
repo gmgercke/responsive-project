@@ -34,7 +34,22 @@ h3 {
   padding: 160px 30px;
 }
 
+.about {
+  padding: 160px 30px;
+}
+
+.about h1 {
+  font-size: 64px;
+  line-height: 1;
+}
+
+.about h2 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
 .primary-button {
+  text-align: center;
   background: var(--brand-primary);
   color: white;
   border-radius: 4px;
@@ -50,6 +65,7 @@ h3 {
 
 .intersection {
   text-align: center;
+  font-weight: bold;
   padding: 30px;
   color: #272142;
 }
@@ -82,11 +98,14 @@ h3 {
 
 @media (max-width: 768px) {
   .apps-headline,
-  .apps-paragraph {
+  .apps-paragraph,
+  .about-headline,
+  .about-paragraph {
     text-align: center;
   }
 
-  .intro {
+  .intro,
+  .about {
     padding: 80px 15px;
   }
 }
