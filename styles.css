@@ -78,6 +78,10 @@ h3 {
   font-weight: bold;
 }
 
+.about .special-link {
+  color: var(--brand-primary);
+}
+
 .work h3,
 .contact h3 {
   text-align: center;
@@ -190,6 +194,13 @@ footer .social-link a {
 footer .social-link a:hover {
   color: white;
   background-color: var(--brand-primary);
+}
+
+.github-link {
+  margin-top: 50px;
+  font-size: 12px;
+  text-align: center;
+  opacity: 0.5;
 }
 
 @media (max-width: 768px) {
