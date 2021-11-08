@@ -59,13 +59,13 @@ h3 {
 .intro {
   background: var(--brand-secondary);
   text-align: center;
-  padding: 160px 30px;
+  padding: 100px 30px;
 }
 
 .about,
 .work,
 .contact {
-  padding: 160px 30px;
+  padding: 100px 30px;
 }
 
 .about h1 {
